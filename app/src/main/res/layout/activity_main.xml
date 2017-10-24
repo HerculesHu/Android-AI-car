@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.zucc.g3.hzy.myapplication.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/complicated_gravity"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/relativeLayout">
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/placeHold">
+            </RelativeLayout>
+
+            <com.zucc.g3.hzy.myapplication.RockerView
+                android:id="@+id/rockerView_left"
+                android:layout_toRightOf="@+id/placeHold"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="@string/test_text"
+                android:id="@+id/chs_text"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rockerView_left"
+                android:layout_marginTop="93dp" />
+
+            <com.zucc.g3.hzy.myapplication.VerticalSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginEnd="89dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true">
+            </com.zucc.g3.hzy.myapplication.VerticalSeekBar>
+
+        </RelativeLayout>
+
+        <Switch
+            android:id="@+id/complicated_gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:text="@string/chosen_gravity" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_marginEnd="228dp"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+</RelativeLayout>
