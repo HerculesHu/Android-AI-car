@@ -62,7 +62,7 @@
                 android:layout_marginStart="7dp"
                 android:layout_toEndOf="@+id/textView2"
                 android:ems="10"
-                android:text="Arduino里的Subtopic" />
+                android:text="666" />
 
         </LinearLayout>
 

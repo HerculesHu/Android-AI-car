@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OTA.iml" filepath="$PROJECT_DIR$/OTA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-AI-car.iml" filepath="$PROJECT_DIR$/Android-AI-car.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/broker/broker.iml" filepath="$PROJECT_DIR$/broker/broker.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty_parser/netty_parser.iml" filepath="$PROJECT_DIR$/netty_parser/netty_parser.iml" />
